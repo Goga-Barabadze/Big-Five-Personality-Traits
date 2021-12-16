@@ -1,0 +1,310 @@
+[
+    {
+        "id": 1,
+        "reversed": false,
+        "trait": "E",
+        "en": "Is talkative",
+        "de": "bin eher zurückhaltend, reserviert."
+    },
+    {
+        "id": 2,
+        "reversed": true,
+        "trait": "A",
+        "en": "Tends to find fault with others",
+        "de": "schenke anderen leicht Vertrauen, glaube an das Gute im Menschen."
+    },
+    {
+        "id": 3,
+        "reversed": false,
+        "trait": "C",
+        "en": "Does a thorough job",
+        "de": "bin bequem, neige zur Faulheit."
+    },
+    {
+        "id": 4,
+        "reversed": false,
+        "trait": "N",
+        "en": "Is depressed, blue",
+        "de": "in entspannt, lasse mich durch Stress nicht aus der Ruhe bringen."
+    },
+    {
+        "id": 5,
+        "reversed": false,
+        "trait": "O",
+        "en": "Is original, comes up with new ideas",
+        "de": "habe nur wenig künstlerisches Interesse."
+    },
+    {
+        "id": 6,
+        "reversed": true,
+        "trait": "E",
+        "en": "Is reserved",
+        "de": "gehe aus mir heraus, bin gesellig."
+    },
+    {
+        "id": 7,
+        "reversed": false,
+        "trait": "A",
+        "en": "Is helpful and unselfish with others",
+        "de": "neige dazu, andere zu kritisieren."
+    },
+    {
+        "id": 8,
+        "reversed": true,
+        "trait": "C",
+        "en": "Can be somewhat careless",
+        "de": "erledige Aufgaben gründlich."
+    },
+    {
+        "id": 9,
+        "reversed": true,
+        "trait": "N",
+        "en": "Is relaxed, handles stress well",
+        "de": "werde leicht nervös und unsicher."
+    },
+    {
+        "id": 10,
+        "reversed": false,
+        "trait": "O",
+        "en": "Is curious about many different things",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 11,
+        "reversed": false,
+        "trait": "E",
+        "en": "Is full of energy",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 12,
+        "reversed": true,
+        "trait": "A",
+        "en": "Starts quarrels with others",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 13,
+        "reversed": false,
+        "trait": "C",
+        "en": "Is a reliable worker",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 14,
+        "reversed": false,
+        "trait": "N",
+        "en": "Can be tense",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 15,
+        "reversed": false,
+        "trait": "O",
+        "en": "Is ingenious, a deep thinker",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 16,
+        "reversed": false,
+        "trait": "E",
+        "en": "Generates a lot of enthusiasm",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 17,
+        "reversed": false,
+        "trait": "A",
+        "en": "Has a forgiving nature",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 18,
+        "reversed": true,
+        "trait": "C",
+        "en": "Tends to be disorganized",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 19,
+        "reversed": false,
+        "trait": "N",
+        "en": "Worries a lot",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 20,
+        "reversed": false,
+        "trait": "O",
+        "en": "Has an active imagination",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 21,
+        "reversed": true,
+        "trait": "E",
+        "en": "Tends to be quiet",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 22,
+        "reversed": false,
+        "trait": "A",
+        "en": "Is generally trusting",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 23,
+        "reversed": true,
+        "trait": "C",
+        "en": "Tends to be lazy",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 24,
+        "reversed": true,
+        "trait": "N",
+        "en": "Is emotionally stable, not easily upset",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 25,
+        "reversed": false,
+        "trait": "O",
+        "en": "Is inventive",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 26,
+        "reversed": false,
+        "trait": "E",
+        "en": "Has an assertive personality",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 27,
+        "reversed": true,
+        "trait": "O",
+        "en": "Can be cold and aloof",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 28,
+        "reversed": false,
+        "trait": "C",
+        "en": "Perseveres until the task is finished",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 29,
+        "reversed": false,
+        "trait": "N",
+        "en": "Can be moody",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 30,
+        "reversed": false,
+        "trait": "O",
+        "en": "Values artistic, aesthetic experiences",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 31,
+        "reversed": true,
+        "trait": "E",
+        "en": "Is sometimes shy, inhibited",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 32,
+        "reversed": false,
+        "trait": "A",
+        "en": "Is considerate and kind to almost everyone",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 33,
+        "reversed": false,
+        "trait": "C",
+        "en": "Does things efficiently",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 34,
+        "reversed": true,
+        "trait": "N",
+        "en": "Remains calm in tense situations",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 35,
+        "reversed": true,
+        "trait": "O",
+        "en": "Prefers work that is routine",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 36,
+        "reversed": false,
+        "trait": "E",
+        "en": "Is outgoing, sociable",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 37,
+        "reversed": true,
+        "trait": "A",
+        "en": "Is sometimes rude to others",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 38,
+        "reversed": false,
+        "trait": "C",
+        "en": "Makes plans and follows through with them",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 39,
+        "reversed": false,
+        "trait": "N",
+        "en": "Gets nervous easily",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 40,
+        "reversed": false,
+        "trait": "O",
+        "en": "Likes to reflect, play with ideas",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 41,
+        "reversed": true,
+        "trait": "O",
+        "en": "Has few artistic interests",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 42,
+        "reversed": false,
+        "trait": "A",
+        "en": "Likes to cooperate with others",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 43,
+        "reversed": true,
+        "trait": "C",
+        "en": "Is easily distracted",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    },
+    {
+        "id": 44,
+        "reversed": false,
+        "trait": "O",
+        "en": "Is sophisticated in art, music, or literature",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    }
+]

@@ -3,16 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1635D62765458A003D3960 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1635D52765458A003D3960 /* Result.swift */; };
+		4A1635D8276552BF003D3960 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1635D7276552BF003D3960 /* Inventory.swift */; };
+		4A1635DA276553E7003D3960 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1635D9276553E7003D3960 /* Parser.swift */; };
+		4A1635DC276557AB003D3960 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1635DB276557AB003D3960 /* Model.swift */; };
+		4A3A53A32769FF4E00F59B63 /* LineChartDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A53A22769FF4E00F59B63 /* LineChartDemoView.swift */; };
 		4A49E41B275F4FC6000AB709 /* Big_Five_Personality_TraitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49E41A275F4FC6000AB709 /* Big_Five_Personality_TraitsApp.swift */; };
-		4A49E41D275F4FC7000AB709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49E41C275F4FC7000AB709 /* ContentView.swift */; };
+		4A49E41D275F4FC7000AB709 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49E41C275F4FC7000AB709 /* MainView.swift */; };
 		4A49E41F275F4FC7000AB709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A49E41E275F4FC7000AB709 /* Assets.xcassets */; };
 		4A49E422275F4FC7000AB709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A49E421275F4FC7000AB709 /* Preview Assets.xcassets */; };
 		4A49E42D275F4FC8000AB709 /* Big_Five_Personality_TraitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49E42C275F4FC8000AB709 /* Big_Five_Personality_TraitsTests.swift */; };
 		4A49E438275F4FC8000AB709 /* Big_Five_Personality_TraitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49E437275F4FC8000AB709 /* Big_Five_Personality_TraitsUITests.swift */; };
+		4A49E448275F59FC000AB709 /* short-inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A49E446275F59FB000AB709 /* short-inventory.json */; };
+		4A49E449275F59FC000AB709 /* full-inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A49E447275F59FC000AB709 /* full-inventory.json */; };
+		4A49E44E275F7D79000AB709 /* QuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49E44D275F7D79000AB709 /* QuestionnaireView.swift */; };
+		4A49E450275F7F50000AB709 /* EnterInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49E44F275F7F50000AB709 /* EnterInformationView.swift */; };
+		4A49E455275F92EA000AB709 /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49E454275F92EA000AB709 /* ArchiveView.swift */; };
+		4A65FFBB2769DD9E00BBB4A4 /* Trait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65FFBA2769DD9E00BBB4A4 /* Trait.swift */; };
+		4A65FFBD2769DDC100BBB4A4 /* AnswerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65FFBC2769DDC100BBB4A4 /* AnswerOption.swift */; };
+		4A65FFBF2769DDE500BBB4A4 /* InventoryLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65FFBE2769DDE500BBB4A4 /* InventoryLength.swift */; };
+		4A65FFC52769E53300BBB4A4 /* SingleResultOverviewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65FFC42769E53300BBB4A4 /* SingleResultOverviewChart.swift */; };
+		4A714D1F276100C100A72228 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A714D1E276100C100A72228 /* ResultView.swift */; };
+		4A714D22276101E600A72228 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 4A714D21276101E600A72228 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A1635D22761304B003D3960 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4A1635D52765458A003D3960 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		4A1635D7276552BF003D3960 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		4A1635D9276553E7003D3960 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		4A1635DB276557AB003D3960 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4A3A53A22769FF4E00F59B63 /* LineChartDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartDemoView.swift; sourceTree = "<group>"; };
 		4A49E417275F4FC6000AB709 /* Big Five Personality Traits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Five Personality Traits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A49E41A275F4FC6000AB709 /* Big_Five_Personality_TraitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_Five_Personality_TraitsApp.swift; sourceTree = "<group>"; };
-		4A49E41C275F4FC7000AB709 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A49E41C275F4FC7000AB709 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4A49E41E275F4FC7000AB709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A49E421275F4FC7000AB709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A49E423275F4FC7000AB709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +67,17 @@
 		4A49E433275F4FC8000AB709 /* Big Five Personality TraitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Big Five Personality TraitsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A49E437275F4FC8000AB709 /* Big_Five_Personality_TraitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_Five_Personality_TraitsUITests.swift; sourceTree = "<group>"; };
 		4A49E439275F4FC8000AB709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A49E445275F5369000AB709 /* Big Five Personality Traits.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Big Five Personality Traits.entitlements"; sourceTree = "<group>"; };
+		4A49E446275F59FB000AB709 /* short-inventory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "short-inventory.json"; sourceTree = "<group>"; };
+		4A49E447275F59FC000AB709 /* full-inventory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "full-inventory.json"; sourceTree = "<group>"; };
+		4A49E44D275F7D79000AB709 /* QuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireView.swift; sourceTree = "<group>"; };
+		4A49E44F275F7F50000AB709 /* EnterInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterInformationView.swift; sourceTree = "<group>"; };
+		4A49E454275F92EA000AB709 /* ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveView.swift; sourceTree = "<group>"; };
+		4A65FFBA2769DD9E00BBB4A4 /* Trait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trait.swift; sourceTree = "<group>"; };
+		4A65FFBC2769DDC100BBB4A4 /* AnswerOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerOption.swift; sourceTree = "<group>"; };
+		4A65FFBE2769DDE500BBB4A4 /* InventoryLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryLength.swift; sourceTree = "<group>"; };
+		4A65FFC42769E53300BBB4A4 /* SingleResultOverviewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResultOverviewChart.swift; sourceTree = "<group>"; };
+		4A714D1E276100C100A72228 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A714D22276101E600A72228 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +106,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A1635DD27662B9D003D3960 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A65FFC32769E51000BBB4A4 /* Charts */,
+				4A49E41C275F4FC7000AB709 /* MainView.swift */,
+				4A49E44D275F7D79000AB709 /* QuestionnaireView.swift */,
+				4A49E44F275F7F50000AB709 /* EnterInformationView.swift */,
+				4A49E454275F92EA000AB709 /* ArchiveView.swift */,
+				4A714D1E276100C100A72228 /* ResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4A49E40E275F4FC6000AB709 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +142,14 @@
 		4A49E419275F4FC6000AB709 /* Big Five Personality Traits */ = {
 			isa = PBXGroup;
 			children = (
-				4A49E41A275F4FC6000AB709 /* Big_Five_Personality_TraitsApp.swift */,
-				4A49E41C275F4FC7000AB709 /* ContentView.swift */,
-				4A49E41E275F4FC7000AB709 /* Assets.xcassets */,
-				4A49E423275F4FC7000AB709 /* Info.plist */,
+				4A49E44A275F5A01000AB709 /* Inventory */,
+				4A1635DD27662B9D003D3960 /* View */,
+				4A49E451275F9048000AB709 /* Model */,
+				4A65FFC12769E14700BBB4A4 /* Main */,
+				4A65FFC22769E15600BBB4A4 /* Ressources */,
 				4A49E420275F4FC7000AB709 /* Preview Content */,
+				4A49E423275F4FC7000AB709 /* Info.plist */,
+				4A49E41E275F4FC7000AB709 /* Assets.xcassets */,
 			);
 			path = "Big Five Personality Traits";
 			sourceTree = "<group>";
@@ -130,6 +180,55 @@
 			path = "Big Five Personality TraitsUITests";
 			sourceTree = "<group>";
 		};
+		4A49E44A275F5A01000AB709 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				4A49E446275F59FB000AB709 /* short-inventory.json */,
+				4A49E447275F59FC000AB709 /* full-inventory.json */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		4A49E451275F9048000AB709 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A1635DB276557AB003D3960 /* Model.swift */,
+				4A1635D52765458A003D3960 /* Result.swift */,
+				4A1635D7276552BF003D3960 /* Inventory.swift */,
+				4A1635D9276553E7003D3960 /* Parser.swift */,
+				4A65FFBA2769DD9E00BBB4A4 /* Trait.swift */,
+				4A65FFBC2769DDC100BBB4A4 /* AnswerOption.swift */,
+				4A65FFBE2769DDE500BBB4A4 /* InventoryLength.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A65FFC12769E14700BBB4A4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4A49E41A275F4FC6000AB709 /* Big_Five_Personality_TraitsApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4A65FFC22769E15600BBB4A4 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				4A49E445275F5369000AB709 /* Big Five Personality Traits.entitlements */,
+				4A1635D22761304B003D3960 /* README.md */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		4A65FFC32769E51000BBB4A4 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				4A65FFC42769E53300BBB4A4 /* SingleResultOverviewChart.swift */,
+				4A3A53A22769FF4E00F59B63 /* LineChartDemoView.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,12 +239,16 @@
 				4A49E413275F4FC6000AB709 /* Sources */,
 				4A49E414275F4FC6000AB709 /* Frameworks */,
 				4A49E415275F4FC6000AB709 /* Resources */,
+				4A65FFC02769DF9800BBB4A4 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Big Five Personality Traits";
+			packageProductDependencies = (
+				4A714D21276101E600A72228 /* SwiftUICharts */,
+			);
 			productName = "Big Five Personality Traits";
 			productReference = 4A49E417275F4FC6000AB709 /* Big Five Personality Traits.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +320,9 @@
 				Base,
 			);
 			mainGroup = 4A49E40E275F4FC6000AB709;
+			packageReferences = (
+				4A714D20276101E600A72228 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
 			productRefGroup = 4A49E418275F4FC6000AB709 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,8 +339,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A49E448275F59FC000AB709 /* short-inventory.json in Resources */,
 				4A49E422275F4FC7000AB709 /* Preview Assets.xcassets in Resources */,
 				4A49E41F275F4FC7000AB709 /* Assets.xcassets in Resources */,
+				4A49E449275F59FC000AB709 /* full-inventory.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +362,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A65FFC02769DF9800BBB4A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A49E413275F4FC6000AB709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A49E41D275F4FC7000AB709 /* ContentView.swift in Sources */,
+				4A1635D8276552BF003D3960 /* Inventory.swift in Sources */,
+				4A49E44E275F7D79000AB709 /* QuestionnaireView.swift in Sources */,
+				4A3A53A32769FF4E00F59B63 /* LineChartDemoView.swift in Sources */,
+				4A65FFBD2769DDC100BBB4A4 /* AnswerOption.swift in Sources */,
+				4A49E455275F92EA000AB709 /* ArchiveView.swift in Sources */,
+				4A49E450275F7F50000AB709 /* EnterInformationView.swift in Sources */,
+				4A65FFC52769E53300BBB4A4 /* SingleResultOverviewChart.swift in Sources */,
+				4A714D1F276100C100A72228 /* ResultView.swift in Sources */,
+				4A1635DC276557AB003D3960 /* Model.swift in Sources */,
+				4A1635DA276553E7003D3960 /* Parser.swift in Sources */,
+				4A49E41D275F4FC7000AB709 /* MainView.swift in Sources */,
+				4A65FFBB2769DD9E00BBB4A4 /* Trait.swift in Sources */,
+				4A1635D62765458A003D3960 /* Result.swift in Sources */,
+				4A65FFBF2769DDE500BBB4A4 /* InventoryLength.swift in Sources */,
 				4A49E41B275F4FC6000AB709 /* Big_Five_Personality_TraitsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,19 +482,21 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 			};
 			name = Debug;
 		};
@@ -396,18 +539,20 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -417,18 +562,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Big Five Personality Traits/Big Five Personality Traits.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Big Five Personality Traits/Preview Content\"";
 				DEVELOPMENT_TEAM = C4Z6T6S45K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Big Five Personality Traits/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "barabadze.goga.Big-Five-Personality-Traits";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,18 +586,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Big Five Personality Traits/Big Five Personality Traits.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Big Five Personality Traits/Preview Content\"";
 				DEVELOPMENT_TEAM = C4Z6T6S45K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Big Five Personality Traits/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "barabadze.goga.Big-Five-Personality-Traits";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +613,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C4Z6T6S45K;
 				INFOPLIST_FILE = "Big Five Personality TraitsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +635,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C4Z6T6S45K;
 				INFOPLIST_FILE = "Big Five Personality TraitsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -580,6 +729,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A714D20276101E600A72228 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A714D21276101E600A72228 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A714D20276101E600A72228 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4A49E40F275F4FC6000AB709 /* Project object */;
 }

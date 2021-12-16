@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Big_Five_Personality_TraitsApp: App {
+    
+    @StateObject var model = Model()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(model)
         }
     }
 }

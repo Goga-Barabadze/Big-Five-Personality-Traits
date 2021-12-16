@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "reversed": true,
+        "trait": "E",
+        "en": "is reserved",
+        "de": "bin eher zurückhaltend, reserviert."
+    },
+    {
+        "id": 2,
+        "reversed": false,
+        "trait": "A",
+        "en": "is generally trusting",
+        "de": "schenke anderen leicht Vertrauen, glaube an das Gute im Menschen."
+    },
+    {
+        "id": 3,
+        "reversed": true,
+        "trait": "C",
+        "en": "tends to be lazy",
+        "de": "bin bequem, neige zur Faulheit."
+    },
+    {
+        "id": 4,
+        "reversed": true,
+        "trait": "N",
+        "en": "is relaxed, handles stress well",
+        "de": "bin entspannt, lasse mich durch Stress nicht aus der Ruhe bringen."
+    },
+    {
+        "id": 5,
+        "reversed": true,
+        "trait": "O",
+        "en": "has few artistic interests",
+        "de": "habe nur wenig künstlerisches Interesse."
+    },
+    {
+        "id": 6,
+        "reversed": false,
+        "trait": "E",
+        "en": "is outgoing, sociable",
+        "de": "gehe aus mir heraus, bin gesellig."
+    },
+    {
+        "id": 7,
+        "reversed": true,
+        "trait": "A",
+        "en": "tends to Wnd fault with others",
+        "de": "neige dazu, andere zu kritisieren."
+    },
+    {
+        "id": 8,
+        "reversed": false,
+        "trait": "C",
+        "en": "does a thorough job",
+        "de": "erledige Aufgaben gründlich."
+    },
+    {
+        "id": 9,
+        "reversed": false,
+        "trait": "N",
+        "en": "gets nervous easily",
+        "de": "werde leicht nervös und unsicher."
+    },
+    {
+        "id": 10,
+        "reversed": false,
+        "trait": "O",
+        "en": "has an active imagination",
+        "de": "habe eine aktive Vorstellungskraft, bin phantasievoll."
+    }
+]
